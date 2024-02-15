@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../node_modules/bootstrap/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="../node_modules/bootstrap-icons/font/bootstrap-icons.min.css">
+    <script src="../node_modules/bootstrap/dist/js/bootstrap.bundle.min.js" defer></script>
+    <style>
+        /* change transition duration to control the speed of fade effect */
+        .carousel-item {
+            transition: transform 2.6s ease-in-out;
+        }
+
+        .carousel-fade .active.carousel-item-start,
+        .carousel-fade .active.carousel-item-end {
+            transition: opacity 0s 2.6s;
+        }
+    </style>
+    <title>31 - Painel Deslizante</title>
+</head>
+
+<body>
+
+    <div class="container my-5">
+        <div class="offcanvas offcanvas-start show" id="painel" tabindex="-1">
+            <div class="offcanvas-header">
+                <h5 class="offcanvas-title">Painel</h5>
+                <button class="btn-close" data-bs-dismiss="offcanvas"></button>
+            </div>
+            <div class="offcanvas body">
+        </div>
+    </div>
+
+    <div class="p-4 invisible"></div>
+    <footer class="p-2 bg-dark text-light text-center fixed-bottom">
+        <h3><a href="/index.html">Voltar ao Menu</a></h3>
+    </footer>
+    </div>
+</body>
+
+</html>

@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../node_modules/bootstrap/dist/css/bootstrap.min.css">
+    <script src="../node_modules/bootstrap/dist/js/bootstrap.bundle.min.js" defer></script>
+    <style>
+        div.border {
+            height: 150px;
+        }
+    </style>
+    <title>16A - Visibilidade II</title>
+</head>
+
+<body>
+    <h3><a href="/index.html">Volta ao Menu</a></h3>
+
+    <header class="p-3 text-bg-dark d-print-none">
+        <div class="container">
+            <h1 class="display-1">NAO IMPRIMIR O CABECALHO</h1>
+        </div>
+    </header>
+    <article class="container my-3">
+        <h1 class="mb-4">Titulo do Artigo</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere ipsam blanditiis ratione ab sunt molestiae
+            ullam nisi voluptate dolor suscipit fugit quia excepturi eveniet, recusandae corporis fugiat facilis esse
+            reiciendis?</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere ipsam blanditiis ratione ab sunt molestiae
+            ullam nisi voluptate dolor suscipit fugit quia excepturi eveniet, recusandae corporis fugiat facilis esse
+            reiciendis?</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere ipsam blanditiis ratione ab sunt molestiae
+            ullam nisi voluptate dolor suscipit fugit quia excepturi eveniet, recusandae corporis fugiat facilis esse
+            reiciendis?</p>
+        <p>PROXIMO PARAGRAFO SO PARA IMPRESSAO</p>
+        <p class="d-none d-print-block">Fonte: meusite.com.br</p>
+    </article>
+
+    <hr>
+    <div class="p-4 col-3 m-3 bg-primary"></div>
+    <div class="p-4 col-3 m-3 bg-success d-none"></div>
+    <div class="p-4 col-3 m-3 bg-warning"></div>
+
+    <hr>
+    <div class="p-4 col-3 m-3 bg-primary"></div>
+    <div class="p-4 col-3 m-3 bg-success invisible"></div>
+    <div class="p-4 col-3 m-3 bg-warning"></div>
+
+    <hr>
+    <div class="container bg-info mt-3">
+        <div class="row">
+            <div class="border p-2 col-3 overflow-auto">Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora doloribus
+                possimus fuga doloremque voluptates odit iusto inventore, debitis illo adipisci ipsam dignissimos
+                nostrum molestias, veritatis beatae voluptatem quasi vel sit.</div>
+            <div class="border p-2 col-3 overflow-hidden">Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem aspernatur modi
+                quasi distinctio ratione assumenda, hic labore quas reprehenderit facilis sequi earum id ipsa cupiditate
+                magnam. Accusantium nihil itaque ipsum!</div>
+            <div class="border p-2 col-3 overflow-visible">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Debitis consectetur
+                vitae deserunt, magnam sit quaerat eveniet numquam esse dolorem beatae dicta accusantium nihil enim
+                aliquid. A culpa iste quam voluptas.</div>
+            <div class="border p-2 col-3 overflow-x-scroll">Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis
+                inventore assumenda ab, deserunt eos at incidunt autem nulla eligendi laudantium! Ratione ad officia
+                esse adipisci veniam laboriosam quidem quisquam sit?</div>
+        </div>
+    </div>
+
+    <hr>
+    <h3><a href="/index.html">Volta ao Menu</a></h3>
+
+</body>
+
+</html>

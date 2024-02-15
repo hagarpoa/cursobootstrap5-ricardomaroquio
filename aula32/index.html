@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../node_modules/bootstrap/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="../node_modules/bootstrap-icons/font/bootstrap-icons.min.css">
+    <script src="../node_modules/bootstrap/dist/js/bootstrap.bundle.min.js" defer></script>
+    <style>
+        /* .carousel-item {
+            transition: transform 2.6s ease-in-out;
+        }
+
+        .carousel-fade .active.carousel-item-start,
+        .carousel-fade .active.carousel-item-end {
+            transition: opacity 0s 2.6s;
+        } */
+    </style>
+    <title>32 - Componentes Simples</title>
+</head>
+
+<body>
+
+    <div class="container my-5">
+        <nav class="breadcrumb" style="--bs-breadcrumb-divider: '>'">
+            <li class="breadcrumb-item">
+                <a href="#">Área Restrita</a>
+            </li>
+            <li class="breadcrumb-item">
+                <a href="#">Perfil</a>
+            </li>
+            <li class="breadcrumb-item">
+                <a href="#">Segurança</a>
+            </li>
+        </nav>
+
+        <hr>
+        <div class="spinner-border text-danger me-5" style="width: 80px; height: 80px;"></div>
+        <div class="spinner-grow text-success spinner-grow-sm"></div>
+
+        <hr>
+        <div class="progress" style="height: 50px;">
+            <div class="progress-bar w-75 bg-warning
+                progress-bar-striped progress-bar-animated">75%</div>
+        </div>
+        <hr>
+        <div class="progress">
+            <div class="progress-bar w-25">25%</div>
+            <div class="progress-bar w-25 bg-success">25%</div>
+            <div class="progress-bar w-25 bg-warning">25%</div>
+        </div>
+
+        <hr>
+        <ul class="pagination pagination-lg justify-content-center">
+            <li class="page-item"><a href="#" class="page-link disabled">Anterior</a></li>
+            <li class="page-item"><a href="#" class="page-link active">1</a></li>
+            <li class="page-item"><a href="#" class="page-link">2</a></li>
+            <li class="page-item"><a href="#" class="page-link">3</a></li>
+            <li class="page-item"><a href="#" class="page-link">Proximo</a></li>
+        </ul>
+
+        <hr>
+        <p>
+            <button class="btn btn-primary" data-bs-toggle="collapse" data-bs-target="#painel">Mostrar</button>
+        </p>
+        <div class="collapse" id="painel">
+            <p class="lead">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Repudiandae sint officia
+                repellendus deleniti consectetur culpa aliquam molestias reiciendis dicta adipisci, provident dolorem
+                magnam dolore laborum velit, atque dolores excepturi ducimus rerum possimus impedit laboriosam quibusdam
+                ut sed? Nam rem sunt unde cumque! Reiciendis nesciunt quidem, soluta quisquam numquam labore similique
+                quis saepe incidunt temporibus quam officiis molestias amet earum architecto accusamus et voluptate
+                harum! Eos aliquam maxime aperiam repudiandae sapiente! Nostrum quos ipsum accusamus tempore sunt, ab,
+                non voluptas eius possimus nihil adipisci sint modi, excepturi sapiente explicabo officiis. Tempore
+                illum consequatur quia consectetur libero accusantium aut facere temporibus odit, amet dolores qui
+                praesentium repudiandae laboriosam saepe, incidunt recusandae nesciunt laborum. Nesciunt mollitia iure
+                explicabo labore eligendi? Minima, maiores dolorem.</p>
+        </div>
+        <hr>
+        <p>
+            <button class="btn btn-primary" data-bs-toggle="collapse" data-bs-target="#painel2">Mostrar</button>
+        </p>
+        <div class="collapse collapse-horizontal" id="painel2">
+            <p class="lead">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Repudiandae sint officia
+                repellendus deleniti consectetur culpa aliquam molestias reiciendis dicta adipisci, provident dolorem
+                magnam dolore laborum velit, atque dolores excepturi ducimus rerum possimus impedit laboriosam quibusdam
+                ut sed? Nam rem sunt unde cumque! Reiciendis nesciunt quidem, soluta quisquam numquam labore similique
+                quis saepe incidunt temporibus quam officiis molestias amet earum architecto accusamus et voluptate
+                harum! Eos aliquam maxime aperiam repudiandae sapiente! Nostrum quos ipsum accusamus tempore sunt, ab,
+                non voluptas eius possimus nihil adipisci sint modi, excepturi sapiente explicabo officiis. Tempore
+                illum consequatur quia consectetur libero accusantium aut facere temporibus odit, amet dolores qui
+                praesentium repudiandae laboriosam saepe, incidunt recusandae nesciunt laborum. Nesciunt mollitia iure
+                explicabo labore eligendi? Minima, maiores dolorem.</p>
+        </div>
+    </div>
+
+    <div class="p-4 invisible"></div>
+    <footer class="p-2 bg-dark text-light text-center fixed-bottom">
+        <h3><a href="/index.html">Voltar ao Menu</a></h3>
+    </footer>
+    </div>
+</body>
+
+</html>

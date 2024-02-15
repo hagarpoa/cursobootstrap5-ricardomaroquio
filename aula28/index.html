@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../node_modules/bootstrap/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="../node_modules/bootstrap-icons/font/bootstrap-icons.min.css">
+    <script src="../node_modules/bootstrap/dist/js/bootstrap.bundle.min.js" defer></script>
+    <style>
+        .row {
+            height: 200px;
+            background-color: aliceblue;
+        }
+
+        .col-3 {
+            background-color: antiquewhite;
+            padding: 20px;
+            border: solid 1px black
+        }
+    </style>
+    <title>28 - Alertas, Badges</title>
+</head>
+
+<body>
+
+    <div class="container py-5">
+        <div class="alert alert-danger">
+            Este é um alerta simples.
+            <br>
+            <a href="#" class="alert-link">Clique aqui</a>
+        </div>
+        <hr>
+        <div class="alert alert-danger">
+            <h4 class="alert-heading">
+                <i class="bi-info-circle"></i>
+                Informação
+            </h4>
+            <p>Este é um alerta simples.</p>
+            <a href="#" class="alert-link">Clique aqui</a>
+        </div>
+        <hr>
+        <div class="alert alert-danger alert-dismissible fade show">
+            <h4 class="alert-heading">
+                <i class="bi-info-circle"></i>
+                Informação
+            </h4>
+            <p>Este é um alerta simples.</p>
+            <button class="btn-close" data-bs-dismiss="alert"></button>
+            <a href="#" class="alert-link">Clique aqui</a>
+        </div>
+        <hr>
+        <h2>
+            Exemplo de texto em cápsula
+            <span class="badge bg-secondary">novo</span>
+        </h2>
+        <hr>
+        <button class="btn btn-primary btn-lg">Notificações
+            <span class="badge bg-danger">3</span>
+        </button>
+        <hr>
+        <button class="btn btn-primary btn-lg position-relative">Notificações
+            <span class="badge bg-danger position-absolute top-0 start-100 translate-middle rounded-pill">3</span>
+        </button>
+        <hr>
+        <button class="btn btn-primary btn-lg position-relative ms-4">Notificações
+            <span class="badge bg-warning position-absolute top-0 start-100 translate-middle rounded-circle p-2 border border-light"> </span>
+        </button>
+
+
+
+        <div class="p-4 invisible"></div>
+        <footer class="p-2 bg-dark text-light text-center fixed-bottom">
+            <h3><a href="/index.html">Voltar ao Menu</a></h3>
+        </footer>
+    </div>
+</body>
+
+</html>

@@ -1,0 +1,45 @@
+Ativar Servidor WEB: Shift+Ctrl+P => Live Server: Open with LiverServer
+Instalar Bootstrap 5 (CDN):
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+        crossorigin="anonymous" defer></script>
+
+Instalar Bootstrap 5 (LOCAL):
+      1) Abri o terminal (Ctrl+') e digite no terminal:
+        a) Confira se esta na raiz do projeto: pwd 
+        b) npm install bootstrap@5 (Vai criar diretorio node_modules\bootstrap na raiz do projeto)
+
+      2) referenciar no html:
+        <link rel="stylesheet" href="../node_modules/bootstrap/dist/css/bootstrap.min.css">
+        <script src="../node_modules/bootstrap/dist/js/bootstrap.bundle.min.js" defer></script>
+
+Instalar Bootstrap Icons (CDN):
+      Pagina para instalar: https://icons.getbootstrap.com/#install
+      Copie o link do CDN e adicione abaixo do link bootstrap.min.css: <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">    <script src="../node_modules/bootstrap/dist/js/bootstrap.bundle.min.js" defer></script>
+
+
+Instalar Bootstrap Icons (LOCAL):
+      1) Abri o terminal (Ctrl+') e digite no terminal:
+        a) Confira se esta na raiz do projeto: pwd 
+        b) npm install bootstrap-icons (Vai criar diretorio node_modules\bootstrap-icons na raiz do projeto)
+    
+      2) referenciar no html (adicione abaixo do link bootstrap.min.css):
+        <link rel="stylesheet" href="../node_modules/bootstrap-icons/font/bootstrap-icons.min.css">
+
+Instalar script Validações:
+      Pagina com script Validações: https://getbootstrap.com/docs/5.3/forms/validation/ (lOGON ANTES DE "Browser defaults" )
+	 
+Editor Favicon: https://www.favicon-generator.org
+Instruções no video https://www.youtube.com/watch?v=SGqe6RixDcg&t=1074s minuto: 16:15
+
+ATALHOS:
+=======
+Atalho para Settings (Configurações): Ctrl+,
+Atalho para Formatar: Shift=Alt+F
+Atalho para comentar:  Ctrl+;
+Atalho Terminal: Ctrl+'
+
+Atalho Responsivo Firefox: Shift+Ctrl+M

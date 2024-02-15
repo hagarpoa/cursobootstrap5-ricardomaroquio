@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../node_modules/bootstrap/dist/css/bootstrap.min.css">
+    <script src="../node_modules/bootstrap/dist/js/bootstrap.bundle.min.js" defer></script>
+    <style>
+        .row {
+            height: 200px;
+            background-color: aliceblue;
+        }
+
+        .col-3 {
+            background-color: antiquewhite;
+            padding: 20px;
+            border: solid 1px black
+        }
+    </style>
+    <title>21 - Campos com Título Flutuante</title>
+</head>
+
+<body>
+    <h3><a href="/index.html">Voltar ao Menu</a></h3>
+
+    <div class="container p-5">
+        <div>
+            <input type="email" name="" id="email1">
+            <label for="email1">E-mail</label>
+        </div>
+        <hr>
+        <div>
+            <label for="email2" class="form-label">E-mail</label>
+            <input type="email" name="" id="email2" class="form-control">
+        </div>
+        <hr>
+        <div class="form-floating mb-3">
+            <input type="email" name="" id="email2" class="form-control" placeholder=" ">
+            <label for="email2" class="form-label">E-mail</label>
+        </div>
+
+        <div class="form-floating mb-3">
+            <input type="password" name="" id="senha" 
+                class="form-control" placeholder=" ">
+            <label for="senha" class="form-label">Senha</label>
+        </div>
+        <div class="form-floating">
+            <textarea name="" id="msg22" style="height: 100px" 
+                class="form-control" placeholder=" "></textarea>
+            <label for="msg22" class="form-label">Mensagem 22</label>
+        </div>
+
+        <hr>
+        
+        <div class="form-floating mb-3">
+            <textarea name="" id="msg" cols="30" rows="10" 
+                style="height: 100px"
+                class="form-control" placeholder=" "></textarea>
+            <label for="msg" class="form-label">Mensagem</label>
+        </div>
+        <div class="form-floating">
+            <textarea name="" id="msg2" style="height: 100px" 
+                class="form-control" placeholder=" "></textarea>
+            <label for="msg2" class="form-label">Mensagem</label>
+        </div>
+
+        <hr>
+        <div class="form-floating">
+            <select name="" id="cidade" class="form-select" placeholder=" ">
+                <option value="">Cidade 1</option>
+                <option value="">Cidade 2</option>
+                <option value="">Cidade 3</option>
+                <option value="">Cidade 4</option>
+                <option value="">Cidade 5</option>
+            </select>
+            <label for="cidade">Cidade</label>
+        </div>
+
+    </div>
+
+    <h3><a href="/index.html">Voltar ao Menu</a></h3>
+
+</body>
+
+</html>

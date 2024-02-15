@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../node_modules/bootstrap/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="../node_modules/bootstrap-icons/font/bootstrap-icons.min.css">
+    <script src="../node_modules/bootstrap/dist/js/bootstrap.bundle.min.js" defer></script>
+    <style>
+        .card .img-fit {
+            aspect-ratio: 16 / 9;
+            object-fit: cover;
+        }
+
+        .card {
+            height: 100%;
+        }
+
+        .card-body {
+            display: flex;
+            height: 100%;
+            flex-direction: column;
+        }
+
+        .card-text {
+            flex-grow: 1;
+        }
+
+        @media (min-width: 767.98px) {
+            .card .img-fit {
+                aspect-ratio: 1.45 / 1;
+            }
+        }
+    </style>
+    <title>27F - Cards VII</title>
+</head>
+
+<body>
+
+    <div class="container py-5">
+        <div class="row row-cols-1 row-cols-md-3 row-cols-lg-3 g-3">
+            <div class="col">
+                <div class="card">
+                    <img src="https://picsum.photos/400/400?random=1" alt="" class="card-img-top img-fit">
+                    <h4 class="card-header">Cabecalho</h4>
+                    <div class="card-body">
+                        <h5 class="card-title">Título do Card</h5>
+                        <h6 class="card-subtitle">Subtítulo do Card</h6>
+                        <p class="card-text">
+                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dicta voluptates laborum itaque
+                            nemo rem
+                        </p>
+                        <!-- <div class="text-end"> -->
+                            <a href="#" class="btn btn-outline-primary">Saiba Mais</a>
+                            <a href="#" class="btn btn-outline-primary">Solicitar</a>
+                        <!-- </div> -->
+                    </div>
+                    <div class="card-footer">
+                        Rodapé
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card">
+                    <img src="https://picsum.photos/400/400?random=2" alt="" class="card-img-top img-fit">
+                    <h4 class="card-header">Cabecalho</h4>
+                    <div class="card-body">
+                        <h5 class="card-title">Título do Card</h5>
+                        <h6 class="card-subtitle">Subtítulo do Card</h6>
+                        <p class="card-text">
+                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dicta voluptates laborum itaque
+                            nemo rem
+                            possimus voluptatum nulla perferendis nihil! Ratione dolor debitis veritatis eligendi
+                            doloremque, sequi
+                            nihil sit repellendus illum.
+                        </p>
+                        <!-- <div class="text-end"> -->
+                            <a href="#" class="btn btn-outline-primary">Saiba Mais</a>
+                            <a href="#" class="btn btn-outline-primary">Solicitar</a>
+                        <!-- </div> -->
+                    </div>
+                    <div class="card-footer">Rodapé</div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card">
+                    <img src="https://picsum.photos/400/400?random=3" alt="" class="card-img-top img-fit">
+                    <h4 class="card-header">Cabecalho</h4>
+                    <div class="card-body">
+                        <h5 class="card-title">Título do Card</h5>
+                        <h6 class="card-subtitle">Subtítulo do Card</h6>
+                        <p class="card-text">
+                            Lorem ipsum
+                        </p>
+                        <div class="text-end">
+                            <a href="#" class="btn btn-outline-primary">Saiba Mais</a>
+                            <a href="#" class="btn btn-outline-primary">Solicitar</a>
+                        </div>
+                    </div>
+                    <div class="card-footer">Rodapé</div>
+                </div>
+            </div>
+        </div>
+        <div class="p-4 invisible"></div>
+        <footer class="p-2 bg-dark text-light text-center fixed-bottom">
+            <h3><a href="/index.html">Voltar ao Menu</a></h3>
+        </footer>
+    </div>
+
+</body>
+
+</html>

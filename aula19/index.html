@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../node_modules/bootstrap/dist/css/bootstrap.min.css">
+    <script src="../node_modules/bootstrap/dist/js/bootstrap.bundle.min.js" defer></script>
+    <style>
+        .row {
+            height: 200px;
+            background-color: aliceblue;
+        }
+
+        .col-3 {
+            background-color: antiquewhite;
+            padding: 20px;
+            border: solid 1px black
+        }
+    </style>
+    <title>19 - Select, range e botoes</title>
+</head>
+
+<body>
+    <h3><a href="/index.html">Volta ao Menu</a></h3>
+    <hr>
+    <div class="container p-5">
+        <div class="mb-3">
+            <label for="" class="form-label">Opção Desejada</label>
+            <select class="form-select" name="" id="">
+                <option value="">Opçao 1</option>
+                <option value="">Opçao 2</option>
+                <option value="">Opçao 3</option>
+                <option value="">Opçao 4</option>
+                <option value="">Opçao 5</option>
+                <option value="">Opçao 6</option>
+            </select>
+        </div>
+    </div>
+    <hr>
+    <div class="container p-5">
+        <div class="mb-3">
+            <label for="" class="form-label">Opção Desejada</label>
+            <div class="col-4">
+                <select class="form-select" name="" id="">
+                    <option value="">Opçao grandona 1</option>
+                    <option value="">Opçao 2</option>
+                    <option value="">Opçao 3</option>
+                    <option value="">Opçao 4</option>
+                    <option value="">Opçao 5</option>
+                    <option value="">Opçao 6</option>
+                </select>
+            </div>
+        </div>
+    </div>
+
+    <hr>
+    <div class="container p-5">
+        <div class="mb-3">
+            <label for="" class="form-label">Opção Desejada</label>
+            <div class="col-4">
+                <select class="form-select" multiple name="" id="">
+                    <option value="">Opçao grandona 1</option>
+                    <option value="">Opçao 2</option>
+                    <option value="">Opçao 3</option>
+                    <option value="">Opçao 4</option>
+                    <option value="">Opçao 5</option>
+                    <option value="">Opçao 6</option>
+                </select>
+            </div>
+        </div>
+    </div>
+
+    <hr>
+    <div class="container p-5">
+        <div class="mb-3">
+            <label for="" class="form-label">Opção Desejada</label>
+            <div class="col-4">
+                <select class="form-select" multiple size="8" disabled name="" id="">
+                    <option value="">Opçao grandona 1</option>
+                    <option value="">Opçao 2</option>
+                    <option value="">Opçao 3</option>
+                    <option value="">Opçao 4</option>
+                    <option value="">Opçao 5</option>
+                    <option value="">Opçao 6</option>
+                    <option value="">Opçao 7</option>
+                </select>
+            </div>
+        </div>
+    </div>
+
+    <hr>
+    <div class="container p-5">
+        <div class="mb-3">
+            <label for="faixa" class="form-label">Etapa</label>
+            <input type="range" class="form-range" id="faixa" min="1" max="5" step="1" value="4">
+        </div>
+    </div>
+
+    <hr>
+    <div class="container p-5">
+        <a href="#">Link</a>
+        <a href="#" class="btn btn-primary">Link</a>
+        <a href="#" class="btn btn-outline-primary">Link</a>
+        <a href="#" class="btn btn-sm btn-outline-primary">Link</a>
+        <a href="#" class="btn btn-lg btn-outline-primary">Link</a>
+    </div>
+
+    <hr>
+    <div class="container p-5">
+        <button class="btn btn-warning">Botão</button>
+        <button class="btn btn-warning" disabled>Botão</button>
+        <button class="btn btn-primary" data-bs-toggle="button">Marcavel</button>
+    </div>
+
+    <hr>
+    <h3><a href="/index.html">Volta ao Menu</a></h3>
+</body>
+
+</html>

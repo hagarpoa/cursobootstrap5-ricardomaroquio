@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../node_modules/bootstrap/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="../node_modules/bootstrap-icons/font/bootstrap-icons.min.css">
+    <script src="../node_modules/bootstrap/dist/js/bootstrap.bundle.min.js" defer></script>
+    <style>
+        /* change transition duration to control the speed of fade effect */
+        .carousel-item {
+            transition: transform 2.6s ease-in-out;
+        }
+
+        .carousel-fade .active.carousel-item-start,
+        .carousel-fade .active.carousel-item-end {
+            transition: opacity 0s 2.6s;
+        }
+    </style>
+    <title>29 - Carousel</title>
+</head>
+
+<body>
+
+    <div class="container py-5">
+        <div class="carousel slide" data-bs-ride="carousel" id="ads" data-bs-touch="false">
+            <div class="carousel-indicators">
+                <button class="active" data-bs-target="#ads" data-bs-slide-to="0"></button>
+                <button class="" data-bs-target="#ads" data-bs-slide-to="1"></button>
+                <button class="" data-bs-target="#ads" data-bs-slide-to="2"></button>
+            </div>
+            <div class="carousel-inner">
+                <div class="carousel-item active" data-bs-interval="2000">
+                    <img src="https://picsum.photos/1280/420?random=1" alt="" class="d-block w-100">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h5>Título do Slide 1</h5>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto eius suscipit fuga
+                            deserunt accusantium aliquid atque consequatur molestiae magnam, magni sint voluptatem
+                            nesciunt hic nemo quod consequuntur quam corrupti ipsam.</p>
+                    </div>
+                </div>
+                <div class="carousel-item" data-bs-interval="2000">
+                    <img src="https://picsum.photos/1280/420?random=2" alt="" class="d-block w-100">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h5>Título do Slide 2</h5>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto eius suscipit fuga
+                            deserunt accusantium aliquid atque consequatur molestiae magnam, magni sint voluptatem
+                            nesciunt hic nemo quod consequuntur quam corrupti ipsam.</p>
+                    </div>
+                </div>
+                <div class="carousel-item" data-bs-interval="2000">
+                    <img src="https://picsum.photos/1280/420?random=3" alt="" class="d-block w-100">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h5>Título do Slide 3</h5>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto eius suscipit fuga
+                            deserunt accusantium aliquid atque consequatur molestiae magnam, magni sint voluptatem
+                            nesciunt hic nemo quod consequuntur quam corrupti ipsam.</p>
+                    </div>
+                </div>
+            </div>
+            <div>
+                <button class="carousel-control-prev" data-bs-target="#ads" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon"></span>
+                </button>
+                <button class="carousel-control-next" data-bs-target="#ads" data-bs-slide="next">
+                    <span class="carousel-control-next-icon"></span>
+                </button>
+            </div>
+        </div>
+        <hr>
+        <div class="carousel slide carousel-fade carousel-dark" data-bs-ride="carousel" id="ads2" data-bs-touch="false">
+            <div class="carousel-indicators">
+                <button class="active" data-bs-target="#ads2" data-bs-slide-to="0"></button>
+                <button class="" data-bs-target="#ads2" data-bs-slide-to="1"></button>
+                <button class="" data-bs-target="#ads2" data-bs-slide-to="2"></button>
+            </div>
+            <div class="carousel-inner">
+                <div class="carousel-item active" data-bs-interval="2000">
+                    <img src="https://picsum.photos/1280/420?random=1" alt="" class="d-block w-100">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h5>Título do Slide 1</h5>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto eius suscipit fuga
+                            deserunt accusantium aliquid atque consequatur molestiae magnam, magni sint voluptatem
+                            nesciunt hic nemo quod consequuntur quam corrupti ipsam.</p>
+                    </div>
+                </div>
+                <div class="carousel-item" data-bs-interval="2000">
+                    <img src="https://picsum.photos/1280/420?random=2" alt="" class="d-block w-100">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h5>Título do Slide 2</h5>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto eius suscipit fuga
+                            deserunt accusantium aliquid atque consequatur molestiae magnam, magni sint voluptatem
+                            nesciunt hic nemo quod consequuntur quam corrupti ipsam.</p>
+                    </div>
+                </div>
+                <div class="carousel-item" data-bs-interval="2000">
+                    <img src="https://picsum.photos/1280/420?random=3" alt="" class="d-block w-100">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h5>Título do Slide 3</h5>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto eius suscipit fuga
+                            deserunt accusantium aliquid atque consequatur molestiae magnam, magni sint voluptatem
+                            nesciunt hic nemo quod consequuntur quam corrupti ipsam.</p>
+                    </div>
+                </div>
+            </div>
+            <div>
+                <button class="carousel-control-prev" data-bs-target="#ads2" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon"></span>
+                </button>
+                <button class="carousel-control-next" data-bs-target="#ads2" data-bs-slide="next">
+                    <span class="carousel-control-next-icon"></span>
+                </button>
+            </div>
+        </div>
+
+        <div class="p-4 invisible"></div>
+        <footer class="p-2 bg-dark text-light text-center fixed-bottom">
+            <h3><a href="/index.html">Voltar ao Menu</a></h3>
+        </footer>
+    </div>
+</body>
+
+</html>
